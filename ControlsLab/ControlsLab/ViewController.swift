@@ -35,17 +35,17 @@ class ViewController: UIViewController {
             if number > 10 {
                 switch number {
                 case 11:
-                    i.text = "A"
+                    i.text = "J"
                     
                 case 12:
-                    i.text = "J"
-                
+                    i.text = "Q"
+//                    bigSuitimage.image = nil
                 case 13:
                    i.text = "K"
-                     bigSuitimage.image = #imageLiteral(resourceName: "king")
+//                     bigSuitimage.image = #imageLiteral(resourceName: "king")
                 default:
-                    i.text = "Q"
-                     bigSuitimage.image = #imageLiteral(resourceName: "king")
+                    i.text = "A"
+
                     
                     
                 }

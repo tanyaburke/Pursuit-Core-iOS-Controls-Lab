@@ -28,7 +28,7 @@
                                     <action selector="suitController:" destination="BYZ-38-t0r" eventType="valueChanged" id="b8X-eA-xep"/>
                                 </connections>
                             </segmentedControl>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="14" translatesAutoresizingMaskIntoConstraints="NO" id="4Sq-Y5-uAy">
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minimumValue="2" maximumValue="14" translatesAutoresizingMaskIntoConstraints="NO" id="4Sq-Y5-uAy">
                                 <rect key="frame" x="174" y="252" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
