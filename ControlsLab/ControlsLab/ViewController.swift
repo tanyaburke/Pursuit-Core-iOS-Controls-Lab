@@ -18,7 +18,7 @@ class ViewController: UIViewController {
  
     
     
-    @IBOutlet var cardValue: [UILabel]!
+    @IBOutlet var cardValueNumberArray: [UILabel]!
     
     
     
@@ -26,15 +26,36 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-        func configureStepper() {
-//
-//            cardvalue.value(forKey: "11") = "J"
-//            cardvalue.value(forKey: "12") = "Q"
-//            cardvalue.value(forKey: "13") = "K"
-//             cardvalue.value(forKey: "1") = "A"
+    
+   
+    @IBAction func cardValueStepper(_ sender: UIStepper) {
+        for i in cardValueNumberArray {
+            let number = Int(sender.value)
+            i.text = number.description
+            if number > 10 {
+                switch number {
+                case 11:
+                    i.text = "A"
+                    
+                case 12:
+                    i.text = "J"
+                
+                case 13:
+                   i.text = "K"
+                     bigSuitimage.image = #imageLiteral(resourceName: "king")
+                default:
+                    i.text = "Q"
+                     bigSuitimage.image = #imageLiteral(resourceName: "king")
+                    
+                    
+                }
+            }
+            
+        }
+    }
         
         
-        
+
         
         var currentSuitChoice: Int = 0 {
             didSet{
