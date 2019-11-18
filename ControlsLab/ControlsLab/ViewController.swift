@@ -39,13 +39,13 @@ class ViewController: UIViewController {
                     
                 case 12:
                     i.text = "Q"
-//                    bigSuitimage.image = nil
+                    bigSuitimage.image = #imageLiteral(resourceName: "queen")
                 case 13:
                    i.text = "K"
-//                     bigSuitimage.image = #imageLiteral(resourceName: "king")
+                     bigSuitimage.image = #imageLiteral(resourceName: "king1")
                 default:
                     i.text = "A"
-
+                    bigSuitimage.image = #imageLiteral(resourceName: "jack")
                     
                     
                 }
